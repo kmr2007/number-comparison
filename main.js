@@ -2,8 +2,8 @@
 
 document.getElementById("btn").addEventListener("click", () => {
   // INPUT
-  let firstNum = document.getElementById("first-in").value;
-  let secondNum = document.getElementById("second-in").value;
+  let firstNum = +document.getElementById("first-in").value;
+  let secondNum = +document.getElementById("second-in").value;
 
   // PROCESS
   let output;
